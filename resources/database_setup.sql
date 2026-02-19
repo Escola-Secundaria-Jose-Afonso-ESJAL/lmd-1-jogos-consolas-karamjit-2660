@@ -1,6 +1,8 @@
 CREATE DATABASE IF NOT EXISTS games_systems;
 USE games_systems;
 
+DROP TABLE IF EXISTS games;
+
 CREATE TABLE games (
     id INT(11) AUTO_INCREMENT PRIMARY KEY,
     titulo VARCHAR(255) NOT NULL,
