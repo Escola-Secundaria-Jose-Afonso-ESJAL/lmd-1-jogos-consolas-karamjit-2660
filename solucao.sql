@@ -1,7 +1,7 @@
 USE games_systems;
 
 -- 1. Listar todos os jogos
---Sua query aqui
+-- Sua query aqui
 SELECT * FROM games;
 
 -- 2. Contar quantos jogos existem na base de dados
